@@ -1,0 +1,12 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 100px auto auto auto;
+}
+
+.grid-item{
+    background-color: firebrick;
+}
+
+a:hover {
+    background-color: firebrick;
+}

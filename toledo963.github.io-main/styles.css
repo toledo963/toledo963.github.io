@@ -1,0 +1,91 @@
+body {
+    background-color: hsl(101, 52%, 55%);
+}
+
+h1 {
+    background-color: chartreuse;
+    color: snow;
+    font-size: x-large;
+}
+
+h2 {
+    background-color: aqua;
+    color: snow;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+p {
+    background-color: cyan;
+    color: snow;
+    font-size: larger
+}
+.clase{
+    color: blue;
+}
+
+h3{
+    background-color: darkseagreen;
+    color: snow;
+    font-size: large
+}
+
+h4{
+    background-color: orchid;
+    color: snow;
+    font-size: small
+
+}
+
+#titulo1{
+    color: rgb(22, 20, 17);
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 40%;
+    text-align: center;
+}
+
+#identificador{
+    color: springgreen;
+}
+.imagen{
+    width: 160px;
+    height: 160px;
+}
+.video{
+    width: 150px;
+    height: 150px;
+}
+.container{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 20px;
+    border: 10px solid black;
+    background-color: lemonchiffon;
+}
+
+a:hover{
+    background-color: gray;
+}
+
+.boton{
+    transition: background-color 0.3s;
+    animation: mover 2s linear linear;
+}
+.boton:hover{
+    background-color: antiquewhite;
+}
+@keyframes mover {
+    0% {transform: translateX(0);}
+    100% {transform: translateX(100px)}
+
+}
+@keyframes girar{
+    0%{transform: rotate(0deg);}
+    50%{transform: rotate(180deg);}
+}
+div{
+    animation: girar 2s linear linear
+}
